@@ -152,7 +152,7 @@ hr {
 
 .row .about-col-1 {
     width: 600px;
-    padding-right: 50px;
+    /* padding-right: 50px; */
 }
 
 .row .about-col-2 {
@@ -224,10 +224,12 @@ hr {
     display:flex;
     justify-content: center;
     align-items:center;
+    border-radius: 15px;
 
 }
 .tab_box .tab_btn.active{
     color:#7360ff;
+    border-color: red;
 }
 .content_box{
     padding:20px;
