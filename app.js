@@ -1,7 +1,7 @@
 const express=require("express");
 const path=require("path");
 const { clearScreenDown } = require("readline");
-require("./db/conn");
+require("../expressweb1/src/db/conn");
 const hbs =require("hbs");
 
 
